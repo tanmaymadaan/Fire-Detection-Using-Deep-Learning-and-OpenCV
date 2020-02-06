@@ -13,7 +13,7 @@ import math
 
 #filename=enter filename
 count = 0
-videoFile = filename
+videoFile = "firenet.mp4"
 cap = cv2.VideoCapture(videoFile)
 frameRate = cap.get(5) #frame rate
 x=1
